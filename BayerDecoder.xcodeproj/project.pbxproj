@@ -11,26 +11,14 @@
 		1721CCA024CE5F6A00F6799B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1721CC9F24CE5F6A00F6799B /* ViewController.swift */; };
 		1721CCA224CE5F6B00F6799B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1721CCA124CE5F6B00F6799B /* Assets.xcassets */; };
 		1721CCA524CE5F6B00F6799B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1721CCA324CE5F6B00F6799B /* Main.storyboard */; };
-		1721CCB124CE5F6B00F6799B /* BayerDecoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1721CCB024CE5F6B00F6799B /* BayerDecoderTests.swift */; };
-		1721CCBC24CE5F6B00F6799B /* BayerDecoderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1721CCBB24CE5F6B00F6799B /* BayerDecoderUITests.swift */; };
+		17B7D79424CE6C20000C077B /* BayerDecode.metal in Sources */ = {isa = PBXBuildFile; fileRef = 17B7D79324CE6C20000C077B /* BayerDecode.metal */; };
+		17B7D79624CE6C4A000C077B /* BayerDecodeParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B7D79524CE6C4A000C077B /* BayerDecodeParameters.swift */; };
+		17B7D79824CE6C6E000C077B /* BayerDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B7D79724CE6C6E000C077B /* BayerDecode.swift */; };
+		17B7D79A24CE6D3C000C077B /* MetalLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B7D79924CE6D3C000C077B /* MetalLibrary.swift */; };
+		17B7D79C24CE6FAA000C077B /* FileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B7D79B24CE6FAA000C077B /* FileItem.swift */; };
+		17B7D79E24CE7373000C077B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B7D79D24CE7373000C077B /* Extensions.swift */; };
+		17B7D7A424CE9BD9000C077B /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B7D7A324CE9BD9000C077B /* MainWindow.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1721CCAD24CE5F6B00F6799B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1721CC9224CE5F6A00F6799B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1721CC9924CE5F6A00F6799B;
-			remoteInfo = BayerDecoder;
-		};
-		1721CCB824CE5F6B00F6799B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1721CC9224CE5F6A00F6799B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1721CC9924CE5F6A00F6799B;
-			remoteInfo = BayerDecoder;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1721CC9A24CE5F6A00F6799B /* BayerDecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BayerDecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,30 +28,17 @@
 		1721CCA424CE5F6B00F6799B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1721CCA624CE5F6B00F6799B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1721CCA724CE5F6B00F6799B /* BayerDecoder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BayerDecoder.entitlements; sourceTree = "<group>"; };
-		1721CCAC24CE5F6B00F6799B /* BayerDecoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BayerDecoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1721CCB024CE5F6B00F6799B /* BayerDecoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayerDecoderTests.swift; sourceTree = "<group>"; };
-		1721CCB224CE5F6B00F6799B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1721CCB724CE5F6B00F6799B /* BayerDecoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BayerDecoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1721CCBB24CE5F6B00F6799B /* BayerDecoderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayerDecoderUITests.swift; sourceTree = "<group>"; };
-		1721CCBD24CE5F6B00F6799B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B7D79324CE6C20000C077B /* BayerDecode.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = BayerDecode.metal; sourceTree = "<group>"; };
+		17B7D79524CE6C4A000C077B /* BayerDecodeParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayerDecodeParameters.swift; sourceTree = "<group>"; };
+		17B7D79724CE6C6E000C077B /* BayerDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayerDecode.swift; sourceTree = "<group>"; };
+		17B7D79924CE6D3C000C077B /* MetalLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalLibrary.swift; sourceTree = "<group>"; };
+		17B7D79B24CE6FAA000C077B /* FileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileItem.swift; sourceTree = "<group>"; };
+		17B7D79D24CE7373000C077B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		17B7D7A324CE9BD9000C077B /* MainWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1721CC9724CE5F6A00F6799B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1721CCA924CE5F6B00F6799B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1721CCB424CE5F6B00F6799B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,8 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				1721CC9C24CE5F6A00F6799B /* BayerDecoder */,
-				1721CCAF24CE5F6B00F6799B /* BayerDecoderTests */,
-				1721CCBA24CE5F6B00F6799B /* BayerDecoderUITests */,
 				1721CC9B24CE5F6A00F6799B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,8 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				1721CC9A24CE5F6A00F6799B /* BayerDecoder.app */,
-				1721CCAC24CE5F6B00F6799B /* BayerDecoderTests.xctest */,
-				1721CCB724CE5F6B00F6799B /* BayerDecoderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,32 +67,29 @@
 		1721CC9C24CE5F6A00F6799B /* BayerDecoder */ = {
 			isa = PBXGroup;
 			children = (
+				17B7D79224CE6C01000C077B /* MetalKernels */,
 				1721CC9D24CE5F6A00F6799B /* AppDelegate.swift */,
+				17B7D7A324CE9BD9000C077B /* MainWindow.swift */,
 				1721CC9F24CE5F6A00F6799B /* ViewController.swift */,
 				1721CCA124CE5F6B00F6799B /* Assets.xcassets */,
 				1721CCA324CE5F6B00F6799B /* Main.storyboard */,
 				1721CCA624CE5F6B00F6799B /* Info.plist */,
 				1721CCA724CE5F6B00F6799B /* BayerDecoder.entitlements */,
+				17B7D79924CE6D3C000C077B /* MetalLibrary.swift */,
+				17B7D79B24CE6FAA000C077B /* FileItem.swift */,
+				17B7D79D24CE7373000C077B /* Extensions.swift */,
 			);
 			path = BayerDecoder;
 			sourceTree = "<group>";
 		};
-		1721CCAF24CE5F6B00F6799B /* BayerDecoderTests */ = {
+		17B7D79224CE6C01000C077B /* MetalKernels */ = {
 			isa = PBXGroup;
 			children = (
-				1721CCB024CE5F6B00F6799B /* BayerDecoderTests.swift */,
-				1721CCB224CE5F6B00F6799B /* Info.plist */,
+				17B7D79324CE6C20000C077B /* BayerDecode.metal */,
+				17B7D79524CE6C4A000C077B /* BayerDecodeParameters.swift */,
+				17B7D79724CE6C6E000C077B /* BayerDecode.swift */,
 			);
-			path = BayerDecoderTests;
-			sourceTree = "<group>";
-		};
-		1721CCBA24CE5F6B00F6799B /* BayerDecoderUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1721CCBB24CE5F6B00F6799B /* BayerDecoderUITests.swift */,
-				1721CCBD24CE5F6B00F6799B /* Info.plist */,
-			);
-			path = BayerDecoderUITests;
+			path = MetalKernels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,42 +112,6 @@
 			productReference = 1721CC9A24CE5F6A00F6799B /* BayerDecoder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1721CCAB24CE5F6B00F6799B /* BayerDecoderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1721CCC324CE5F6B00F6799B /* Build configuration list for PBXNativeTarget "BayerDecoderTests" */;
-			buildPhases = (
-				1721CCA824CE5F6B00F6799B /* Sources */,
-				1721CCA924CE5F6B00F6799B /* Frameworks */,
-				1721CCAA24CE5F6B00F6799B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1721CCAE24CE5F6B00F6799B /* PBXTargetDependency */,
-			);
-			name = BayerDecoderTests;
-			productName = BayerDecoderTests;
-			productReference = 1721CCAC24CE5F6B00F6799B /* BayerDecoderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1721CCB624CE5F6B00F6799B /* BayerDecoderUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1721CCC624CE5F6B00F6799B /* Build configuration list for PBXNativeTarget "BayerDecoderUITests" */;
-			buildPhases = (
-				1721CCB324CE5F6B00F6799B /* Sources */,
-				1721CCB424CE5F6B00F6799B /* Frameworks */,
-				1721CCB524CE5F6B00F6799B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1721CCB924CE5F6B00F6799B /* PBXTargetDependency */,
-			);
-			name = BayerDecoderUITests;
-			productName = BayerDecoderUITests;
-			productReference = 1721CCB724CE5F6B00F6799B /* BayerDecoderUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -191,14 +123,6 @@
 				TargetAttributes = {
 					1721CC9924CE5F6A00F6799B = {
 						CreatedOnToolsVersion = 12.0;
-					};
-					1721CCAB24CE5F6B00F6799B = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 1721CC9924CE5F6A00F6799B;
-					};
-					1721CCB624CE5F6B00F6799B = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 1721CC9924CE5F6A00F6799B;
 					};
 				};
 			};
@@ -216,8 +140,6 @@
 			projectRoot = "";
 			targets = (
 				1721CC9924CE5F6A00F6799B /* BayerDecoder */,
-				1721CCAB24CE5F6B00F6799B /* BayerDecoderTests */,
-				1721CCB624CE5F6B00F6799B /* BayerDecoderUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,20 +154,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1721CCAA24CE5F6B00F6799B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1721CCB524CE5F6B00F6799B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -253,41 +161,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17B7D79824CE6C6E000C077B /* BayerDecode.swift in Sources */,
+				17B7D7A424CE9BD9000C077B /* MainWindow.swift in Sources */,
+				17B7D79A24CE6D3C000C077B /* MetalLibrary.swift in Sources */,
+				17B7D79C24CE6FAA000C077B /* FileItem.swift in Sources */,
+				17B7D79424CE6C20000C077B /* BayerDecode.metal in Sources */,
+				17B7D79624CE6C4A000C077B /* BayerDecodeParameters.swift in Sources */,
+				17B7D79E24CE7373000C077B /* Extensions.swift in Sources */,
 				1721CCA024CE5F6A00F6799B /* ViewController.swift in Sources */,
 				1721CC9E24CE5F6A00F6799B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1721CCA824CE5F6B00F6799B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1721CCB124CE5F6B00F6799B /* BayerDecoderTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1721CCB324CE5F6B00F6799B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1721CCBC24CE5F6B00F6799B /* BayerDecoderUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1721CCAE24CE5F6B00F6799B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1721CC9924CE5F6A00F6799B /* BayerDecoder */;
-			targetProxy = 1721CCAD24CE5F6B00F6799B /* PBXContainerItemProxy */;
-		};
-		1721CCB924CE5F6B00F6799B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1721CC9924CE5F6A00F6799B /* BayerDecoder */;
-			targetProxy = 1721CCB824CE5F6B00F6799B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1721CCA324CE5F6B00F6799B /* Main.storyboard */ = {
@@ -458,90 +344,6 @@
 			};
 			name = Release;
 		};
-		1721CCC424CE5F6B00F6799B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4BB235M4GL;
-				INFOPLIST_FILE = BayerDecoderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = Irorio.BayerDecoderTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BayerDecoder.app/Contents/MacOS/BayerDecoder";
-			};
-			name = Debug;
-		};
-		1721CCC524CE5F6B00F6799B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4BB235M4GL;
-				INFOPLIST_FILE = BayerDecoderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = Irorio.BayerDecoderTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BayerDecoder.app/Contents/MacOS/BayerDecoder";
-			};
-			name = Release;
-		};
-		1721CCC724CE5F6B00F6799B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4BB235M4GL;
-				INFOPLIST_FILE = BayerDecoderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Irorio.BayerDecoderUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = BayerDecoder;
-			};
-			name = Debug;
-		};
-		1721CCC824CE5F6B00F6799B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 4BB235M4GL;
-				INFOPLIST_FILE = BayerDecoderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = Irorio.BayerDecoderUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = BayerDecoder;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -559,24 +361,6 @@
 			buildConfigurations = (
 				1721CCC124CE5F6B00F6799B /* Debug */,
 				1721CCC224CE5F6B00F6799B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1721CCC324CE5F6B00F6799B /* Build configuration list for PBXNativeTarget "BayerDecoderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1721CCC424CE5F6B00F6799B /* Debug */,
-				1721CCC524CE5F6B00F6799B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1721CCC624CE5F6B00F6799B /* Build configuration list for PBXNativeTarget "BayerDecoderUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1721CCC724CE5F6B00F6799B /* Debug */,
-				1721CCC824CE5F6B00F6799B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
