@@ -12,15 +12,20 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet var window: NSWindow!
 
-
-    func applicationDidFinishLaunching(_ aNotification: Notification) {
+    func applicationDidFinishLaunching(_ aNotification: Notification)
+    {
         // Insert code here to initialize your application
     }
 
-    func applicationWillTerminate(_ aNotification: Notification) {
+    func applicationWillTerminate(_ aNotification: Notification)
+    {
         // Insert code here to tear down your application
     }
-
-
+    
+    /// Shut down the app when the windows close.
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool
+    {
+        return true
+    }
 }
 
